@@ -27,6 +27,14 @@ body {
 
 }
 
+.buttons {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     height: 100%;
+     flex-direction: row;
+}
+
 
 /******************************************
 /* LAYOUT
@@ -42,13 +50,13 @@ h1 {
 
 ul {
      display: flex;
-     justify-content: center;
+     justify-content: space-around;
      list-style: none;
      font-family: 'Fredoka One', cursive;
 }
 
-footer {
-
+a{
+     text-decoration: none;
 }
 
 /******************************************
