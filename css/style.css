@@ -43,21 +43,23 @@ header {
 
 }
 
+body {
+     background-image: url(/images/fall.gif);
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+
 h1 {
      text-align: center;
      font-family: 'Fredoka One', cursive;
 }
 
-ul {
+div {
      display: flex;
      justify-content: space-around;
-     list-style: none;
      font-family: 'Fredoka One', cursive;
 }
 
-a{
-     text-decoration: none;
-}
 
 /******************************************
 /* ADDITIONAL STYLES
