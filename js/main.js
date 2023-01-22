@@ -12,31 +12,9 @@ summer.addEventListener('click', () => {
 });
 
 autumn.addEventListener('click', () => {
-    document.body.style.backgroundImage = "url('images/fall.gif')";
+    document.body.style.backgroundImage = "url('images/autumn.gif')";
 });
 
 winter.addEventListener('click', () => {
     document.body.style.backgroundImage = "url('images/winter.jpg')";
 });
-
-
-/*function changeBackground() {
-    document.querySelector("body").style.backgroundColor = 'blue';
-}
-
-function changeBackground() {
-    document.querySelector("body").style.backgroundColor = 'red';
-}
-
-function changeBackground() {
-    document.querySelector("body").style.backgroundColor = 'pink';
-}
-
-function changeBackground() {
-    document.querySelector("body").style.backgroundColor = 'orange';
-}
-
-
-function season() {
-    document.getElementById("myDIV").style.backgroundImage = "url(Winter_Branch_4K_Living_Background.mp4)";
- }*/
