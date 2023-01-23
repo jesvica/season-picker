@@ -23,9 +23,6 @@
 /* BASE STYLES
 /*******************************************/
 
-body {
-
-}
 
 .buttons {
      display: flex;
@@ -39,28 +36,56 @@ body {
 /******************************************
 /* LAYOUT
 /*******************************************/
-header {
-
-}
-
-body {
-     background-image: url(/images/fall.gif);
-     background-repeat: no-repeat;
-     background-size: cover;
-}
-
 h1 {
+     color: white;
+     font-size: 5em;
      text-align: center;
      font-family: 'Fredoka One', cursive;
 }
 
+body {
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-color: #778DA9;
+}
+
 div {
      display: flex;
-     justify-content: space-around;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
      font-family: 'Fredoka One', cursive;
 }
 
+.buttons {
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     height: 100%;
+     flex-direction: row;
+     flex-wrap: wrap;
+}
+
+button {
+     padding: 20px;
+     border-radius: 10px;
+     background-color: #FAF9F6;
+     opacity: 70%;
+     border: none;
+     color: #3f3f3f;
+}
+
+button:hover {
+     opacity: 90%;
+     cursor: pointer;
+}
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
+@media screen and (max-width: 850px) {
+     body {
+          background-color: #778DA9;
+     }
+}

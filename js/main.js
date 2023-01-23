@@ -4,17 +4,17 @@ let autumn = document.querySelector('#autumn');
 let winter = document.querySelector('#winter');
 
 spring.addEventListener('click', () => {
-    document.body.style.backgroundImage = "url('images/spring.jpg')";
+    document.body.style.backgroundImage = "url('images/spring-flowers.gif')";
 });
 
 summer.addEventListener('click', () => {
-    document.body.style.backgroundImage = "url('images/summer.jpg')";
+    document.body.style.backgroundImage = "url('images/sea.gif')";
 });
 
 autumn.addEventListener('click', () => {
-    document.body.style.backgroundImage = "url('images/autumn.gif')";
+    document.body.style.backgroundImage = "url('images/fall-leaves.gif')";
 });
 
 winter.addEventListener('click', () => {
-    document.body.style.backgroundImage = "url('images/winter.jpg')";
+    document.body.style.backgroundImage = "url('images/snow.gif')";
 });
